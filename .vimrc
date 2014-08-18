@@ -20,7 +20,7 @@ set wildmode=list:longest
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 autocmd BufEnter * lcd %:p:h "pour que working directory soit celui du fichier courant
